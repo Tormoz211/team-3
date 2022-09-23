@@ -14,6 +14,11 @@ for($i==1;$i<=50;$i++){
     }else{
         echo "<div class='element50'>".$i." номер элемента</div>";
     }
+    if($i % 5 == 0) {
+        echo "<div class='element50 kursiv'>".$i." номер элемента</div>";
+    }else{
+        echo "<div class='element50'>".$i." номер элемента</div>";
+    }
 }
 ?>
 <style>
